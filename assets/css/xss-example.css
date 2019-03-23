@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+	min-width: 100%;
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #fff;
+	margin-bottom: 0;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee;
+}
+
+h2 {
+	font-weight: 500;
+}
+
+.bg-light {
+	background-color: #fff;
+}
+
+.text-black {
+	color: #000;
+}
+
+.bt-outline, .btn-enter {
+	padding: 10px 20px 10px 20px;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px #8dbaee solid;
+	color: #8dbaee;
+	transition: all .2s linear;
+}
+
+.bt-outline:hover, .btn-enter:hover {
+	background-color: #8dbaee;
+	color: #fff;
+	transition: all .2s linear;
+}
+
+.btn-enter {
+	border: 1px #26de81 solid;
+	color: #26de81;
+}
+
+.btn-enter:hover {
+	background-color: #26de81;
+	color: #fff;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.navbar {
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-custom {
+	padding-top: 0.7rem;
+	padding-bottom: 0.7rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition-duration: 0.2s;
+}
+
+.transparent {
+	padding-top: .4rem;
+	padding-bottom: .4rem;
+	background-color: rgba(0, 0, 0, 0);
+	transition-duration: 0.2s;
+}
+
+.navbar-custom .navbar-brand {
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: #fff;
+}
+
+.navbar-custom .navbar-nav li a {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: 700;
+	color: #fff;
+}
+
+.navbar-custom .navbar-nav li ul a {
+	color: #000;
+}
+
+.navbar-custom .navbar-nav li:hover, .navbar-custom .navbar-nav li ul a:hover{
+	transition-duration: 0.1s;
+	background-color: #e84118; 
+	color: white;
+	border-radius: 2px;
+}
+
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:hover, .navbar-custom .navbar-nav li.active a:focus {
+	background-color: #e84118; 
+	color: white;
+	border-radius: 2px;
+}
+
+.login {
+	display: block;
+	padding-top: 100px;
+}
